@@ -1,0 +1,149 @@
+/* ==|== primary styles =====================================================
+   Author:
+   ========================================================================== */
+	
+	
+/* -----------------------------------
+// PAGE FURNITURE
+//-----------------------------------  */
+
+.ticker {
+	width: 710px;
+	height: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.ticker-title {
+	padding-top: 1%;
+	float: left;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.ticker-content {
+	margin: 0px;
+	padding-top: 1%;
+	position: absolute;
+	color: black;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 1.2em;
+}
+.ticker-content:focus {
+	none;
+}
+.ticker-content a {
+	text-decoration: none;	
+	color: black;
+}
+.ticker-content a:hover {
+	text-decoration: underline;	
+	color: grey;
+}
+.ticker-swipe {
+	padding-top: 1%;
+	position: absolute;
+	top: 0px;
+	background-color: #dedede;
+	display: block;
+	width: 800px;
+	height: 23px; 
+}
+.ticker-swipe span {
+	margin-left: 1px;
+	border-bottom: 1px solid #1F527B;
+	height: 12px;
+	width: 7px;
+	display: block;
+}
+.ticker-controls {
+	padding: 8px 0px 0px 0px;
+	list-style-type: none;
+	float: left;
+}
+.ticker-controls li {
+	padding: 0px;
+	margin-left: 5px;
+	float: left;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+.tickerGrid { border-top: 1px solid black; border-bottom: 1px solid black; }
+/* ----------------------------------------------------------------------------------------------------
+MEDIA QUERIES
+----------------------------------------------------------------------------------------------------*/
+
+/* PHONE LANDSCAPE
+----------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 480px) {
+
+/* Typography
+----------------------------------------------------------------------------------------------------*/
+
+	
+/* Furnature
+----------------------------------------------------------------------------------------------------*/
+
+.wrapper_h_50 .grid_h_100 { 
+	height: 50%;
+	min-height: 50%;
+}
+	.wrapper_h_50 .grid_h_100 .full_h {
+		height: 44%;
+		min-height: 44%;
+	}
+	
+.wrapper_h_50 .grid_h_50 .full_h {
+	height: 100%;
+	min-height: 100%;	
+}	
+
+} 	/*/mediaquery*/ /* END PHONE LANDSCAPE
+----------------------------------------------------------------------------------------------------*/
+
+
+/* TABLET PORTRAIT  */
+@media screen and (min-width: 768px) {
+
+/* Typography
+----------------------------------------------------------------------------------------------------*/
+	
+/* Furnature
+----------------------------------------------------------------------------------------------------*/
+
+
+} 	/*/mediaquery*/ /* END TABLET PORTRAIT
+----------------------------------------------------------------------------------------------------*/
+
+
+
+/* TABLET LANDSCAPE
+----------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px) { 
+
+/* Typography
+----------------------------------------------------------------------------------------------------*/
+
+/* Furnature
+----------------------------------------------------------------------------------------------------*/
+
+
+
+	
+
+}	/*/mediaquery*/ /* END TABLET LANDSCAPE
+----------------------------------------------------------------------------------------------------*/
+
+
+/* DESKTOP
+----------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1200px) { 
+
+
+}	/*/mediaquery*/ /* END DESKTOP  */
+	
